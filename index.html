@@ -1,0 +1,902 @@
+<!doctype html>
+<html lang="en">
+<!--
+
+Author: Diego Gomes Castilho
+Portfolio: https://diegocastilho.com
+Date: 2020
+Tipo de licença: This work is free. You can redistribute it and/or modify it under the
+terms of the Do What The Fuck You Want To Public License, Version 2,
+as published by Sam Hocevar. See http://www.wtfpl.net/ for more details.
+
+-->
+<head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- end meta tags -->
+
+    <title>Dashboard - Diego Castilho</title>
+
+    <!-- favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.png">
+    <!-- end favicon-->
+
+    <!-- general styles-->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/nouislider/nouislider.css" rel="stylesheet">
+    <!--  End general styles-->
+
+    <!-- main style-->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- End main style-->
+
+    <!-- Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <!-- End Font -->
+</head>
+
+<body>
+
+
+<div id="wrapper">
+    <div class="overlay"></div>
+
+    <!-- Sidebar -->
+    <nav class="fixed-top align-top sidebar-box" id="sidebar-wrapper" role="navigation">
+        <div class="sidebar-content">
+            <a class="logo-brand" href="#">
+                <img src="images/logo.svg" alt="Dashboard Diego Castilho"/>
+            </a>
+
+            <ul class="navbar-nav align-self-stretch">
+
+                <li class="has-sub">
+                    <a class="nav-link collapsed text-left" href="#menu1" role="button"
+                       data-toggle="collapse">
+                        <i class="icon-web-page-home"></i> Dashboard
+                    </a>
+                    <div class="collapse menu mega-dropdown" id="menu1">
+                        <div class="dropmenu" aria-labelledby="navbarDropdown">
+                            <div class="container-fluid ">
+                                <div class="row">
+                                    <div class="col-lg-12 px-2">
+                                        <div class="submenu-box">
+                                            <ul class="list-unstyled m-0">
+                                                <li><a href="#"><i class="icon-circle"></i> Ecommerce</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="sidebar-header">
+                    Apps
+                </li>
+
+                <li class="">
+                    <a class="nav-link text-left active" role="button">
+                        <i class="icon-closed-envelope-email"></i> E-mail
+                    </a>
+                </li>
+
+                <li class="">
+                    <a class="nav-link text-left" role="button">
+                        <i class="icon-chat-speech-balloon"></i> Chat
+                    </a>
+                </li>
+
+                <li class="">
+                    <a class="nav-link text-left" role="button">
+                        <i class="icon-checkmark"></i> Todo
+                    </a>
+                </li>
+
+                <li class="">
+                    <a class="nav-link text-left" role="button">
+                        <i class="icon-office-monthly-calendar"></i> Calendar
+                    </a>
+                </li>
+
+                <li class="sidebar-header">
+                    UI ELEMENTS
+                </li>
+
+                <li class="has-sub">
+                    <a class="nav-link collapsed text-left" href="#menu2" role="button"
+                       data-toggle="collapse">
+                        <i class="icon-layout"></i> Grid
+                    </a>
+                    <div class="collapse menu mega-dropdown" id="menu2">
+                        <div class="dropmenu" aria-labelledby="navbarDropdown">
+                            <div class="container-fluid ">
+                                <div class="row">
+                                    <div class="col-lg-12 px-2">
+                                        <div class="submenu-box">
+                                            <ul class="list-unstyled m-0">
+                                                <li><a href="#"><i class="icon-circle"></i> Grid 1</a></li>
+                                                <li><a href="#"><i class="icon-circle"></i> Grid 2</a></li>
+                                                <li><a href="#"><i class="icon-circle"></i> Grid 3</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="">
+                    <a class="nav-link text-left" role="button">
+                        <i class="icon-water-drop"></i> Colors
+                    </a>
+                </li>
+                <li class="has-sub">
+                    <a class="nav-link collapsed text-left" href="#menu3" role="button"
+                       data-toggle="collapse">
+                        <i class="icon-credit-card"></i> Card
+                    </a>
+                    <div class="collapse menu mega-dropdown" id="menu3">
+                        <div class="dropmenu" aria-labelledby="navbarDropdown">
+                            <div class="container-fluid ">
+                                <div class="row">
+                                    <div class="col-lg-12 px-2">
+                                        <div class="submenu-box">
+                                            <ul class="list-unstyled m-0">
+                                                <li><a href="#"><i class="icon-circle"></i> Card 1</a></li>
+                                                <li><a href="#"><i class="icon-circle"></i> Card 2</a></li>
+                                                <li><a href="#"><i class="icon-circle"></i> Card 3</a></li>
+                                                <li><a href="#"><i class="icon-circle"></i> Card 4</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="">
+                    <a class="nav-link text-left" role="button">
+                        <i class="icon-menu-grid"></i> Table
+                    </a>
+                </li>
+                <li class="has-sub">
+                    <a class="nav-link collapsed text-left" href="#menu4" role="button"
+                       data-toggle="collapse">
+                        <i class="icon-box"></i> Components
+                    </a>
+                    <div class="collapse menu mega-dropdown" id="menu4">
+                        <div class="dropmenu" aria-labelledby="navbarDropdown">
+                            <div class="container-fluid ">
+                                <div class="row">
+                                    <div class="col-lg-12 px-2">
+                                        <div class="submenu-box">
+                                            <ul class="list-unstyled m-0">
+                                                <li><a href="#"><i class="icon-circle"></i> Components 1</a></li>
+                                                <li><a href="#"><i class="icon-circle"></i> Components 2</a></li>
+                                                <li><a href="#"><i class="icon-circle"></i> Components 3</a></li>
+                                                <li><a href="#"><i class="icon-circle"></i> Components 4</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="sidebar-header">
+                    FORMS
+                </li>
+                <li class="has-sub">
+                    <a class="nav-link collapsed text-left" href="#menu5" role="button"
+                       data-toggle="collapse">
+                        <i class="icon-layout-box"></i> Form Elements
+                    </a>
+                    <div class="collapse menu mega-dropdown" id="menu5">
+                        <div class="dropmenu" aria-labelledby="navbarDropdown">
+                            <div class="container-fluid ">
+                                <div class="row">
+                                    <div class="col-lg-12 px-2">
+                                        <div class="submenu-box">
+                                            <ul class="list-unstyled m-0">
+                                                <li><a href="#"><i class="icon-circle"></i> Form Elements 1</a></li>
+                                                <li><a href="#"><i class="icon-circle"></i> Form Elements 2</a></li>
+                                                <li><a href="#"><i class="icon-circle"></i> Form Elements 3</a></li>
+                                                <li><a href="#"><i class="icon-circle"></i> Form Elements 4</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="">
+                    <a class="nav-link text-left" role="button">
+                        <i class="icon-layout-1"></i> Form Layouts
+                    </a>
+                </li>
+                <li class="">
+                    <a class="nav-link text-left" role="button">
+                        <i class="icon-layout2"></i> Form Wizard
+                    </a>
+                </li>
+                <li class="">
+                    <a class="nav-link text-left" role="button">
+                        <i class="icon-checkmark-1"></i> Form Validation
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End Sidebar -->
+
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+
+        <div id="content">
+
+            <div class="container-fluid p-0 px-lg-0 px-md-0">
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light gran-navbar">
+
+                    <!-- Sidebar Toggle (Top-bar) -->
+                    <div type="button" id="bar" class="nav-toggle-icon hamburger animated fadeInLeft is-closed"
+                         data-toggle="offcanvas">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <!-- End Sidebar Toggle (Topbar) -->
+
+
+                    <!-- Top-bar Search -->
+                    <div class="d-none d-md-block nav-icons-left pl-3">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Todo"><i class="icon-checkmark"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Chat"><i class="icon-chat-speech-balloon"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="E-mail"><i class="icon-closed-envelope-email"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Calendar"><i class="icon-office-monthly-calendar"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Favorite"><i class="icon-star-shape-favorite"></i></a>
+                    </div>
+                    <!-- End Top-bar Search -->
+
+
+                    <!-- Top-bar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
+                        <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                        <li class="nav-item dropdown  d-sm-none">
+
+                            <!-- Dropdown - Messages -->
+                            <div class="dropdown-menu dropdown-menu-right p-3">
+                                <form class="form-inline mr-auto w-100 navbar-search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control bg-light border-0 small"
+                                               placeholder="Search for...">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="button">
+                                                <i class="fas fa-search fa-sm"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link mt-2 " href="#">
+                                <span class="mr-2 d-none d-lg-inline small">English</span>
+                            </a>
+                        </li>
+
+                        <!-- Nav Item - Messages -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-icon dropdown" href="#" id="alerts-top" data-toggle="dropdown"
+                               aria-expanded="false">
+                                <div class="position-relative">
+                                    <i class="icon-alarm-bell"></i>
+                                    <span class="indicator">1</span>
+                                </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right box-message py-0"
+                                 aria-labelledby="alerts-top">
+                                <div class="dropdown-menu-header mt-1">
+                                    <span class="message-title">NOTIFICATIONS</span>
+                                </div>
+                                <div class="list-group">
+                                    <a href="#" class="list-group-item">
+                                        <div class="row bg-gutters align-items-center">
+                                            <div class="col-10">
+                                                <div class="text-purple">New product purchase</div>
+                                                <div class="text-desc small mt-1">Lorem Ipsum is simply dummy
+                                                </div>
+                                                <div class="text-time small mt-1">30m ago</div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div class="dropdown-menu-footer message-footer">
+                                    <a href="#">View All</a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- ENd Nav Item - Messages -->
+
+                        <!-- Nav Item - Search -->
+                        <li class="nav-item dropdown d-none d-sm-block">
+                            <a class="nav-icon dropdown" href="#" id="search-top" data-toggle="dropdown"
+                               aria-expanded="false">
+                                <div class="position-relative">
+                                    <i class="icon-magnifying-glass-browser"></i>
+                                </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right py-0 search-top"
+                                 aria-labelledby="search-top">
+                                <form>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control border-0" placeholder="Search...">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-light" type="button"><i
+                                                    class="icon-magnifying-glass-browser"></i></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+                        <!-- End Nav Item - Search -->
+
+                        <!-- Nav Item / User Menu -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                               data-toggle="dropdown">
+                                <span class="mr-2 d-none d-lg-inline small">Diego Castilho</span>
+                                <img class="img-profile rounded-circle" src="images/perfil.svg">
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right animated--grow-in"
+                                 aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="#">
+                                    Profile
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Settings
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    Logout
+                                </a>
+                            </div>
+                        </li>
+                        <!-- End Nav Menu / User Menu -->
+
+                    </ul>
+                    <!-- End Top-bar Navbar -->
+
+                </nav>
+                <!-- End of Top-bar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid px-lg-4">
+                    <div class="row">
+
+                        <!-- Breadcrumbs -->
+                        <div class="col-md-12">
+                            <!-- Page Heading -->
+                            <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                                <div class="bread-bg">
+                                    <span class="h4 mb-0 bread-title">Digital Art</span>
+                                    <span class="bread-links">
+                                          <a href="#"> <i class="home icon-web-page-home"></i></a> <i
+                                            class="icon-right-chevron arrow"></i> <a href="#">Art</a> <i
+                                            class="icon-right-chevron arrow"></i> <span
+                                            class="bread-now">Digital</span>
+                                      </span>
+                                </div>
+                                <a href="#" class="gear-menu btn btn-sm btn-primary border-radius-50"><i
+                                        class="icon-options-gear"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End Breadcrumbs -->
+
+                        <!-- Products -->
+                        <div class="col-lg-12">
+                            <section class="section-content padding-y">
+                                <div>
+
+                                    <div class="row">
+
+                                        <!-- Filters-->
+                                        <aside class="col-md-3 collapse" id="collapseFilters">
+                                            <a class="bg-dark-flow" data-toggle="collapse"
+                                               href="#collapseFilters" role="button" aria-expanded="false"
+                                               aria-controls="collapseFilters"></a>
+                                            <h6 class="title">Filters</h6>
+                                            <a class="btn btn-primary btn-filter filter-inside" data-toggle="collapse"
+                                               href="#collapseFilters" role="button" aria-expanded="false"
+                                               aria-controls="collapseFilters">
+                                                X
+                                            </a>
+                                            <div class="card filter-box">
+                                                <div class="filter-group">
+                                                    <div class="filter-content pt-0">
+                                                        <h4 class="title mt-0">Multi Range </h4>
+                                                        <div class="card-body">
+                                                            <label class="custom-control custom-radio">
+                                                                <input type="radio" name="price" checked=""
+                                                                       class="custom-control-input">
+                                                                <div class="custom-control-label">$10</div>
+                                                            </label>
+                                                            <label class="custom-control custom-radio">
+                                                                <input type="radio" name="price" checked=""
+                                                                       class="custom-control-input">
+                                                                <div class="custom-control-label">$10-$100</div>
+                                                            </label>
+                                                            <label class="custom-control custom-radio">
+                                                                <input type="radio" name="price" checked=""
+                                                                       class="custom-control-input">
+                                                                <div class="custom-control-label">$100-$500</div>
+                                                            </label>
+                                                            <label class="custom-control custom-radio">
+                                                                <input type="radio" name="price" checked=""
+                                                                       class="custom-control-input">
+                                                                <div class="custom-control-label">$500</div>
+                                                            </label>
+                                                            <label class="custom-control custom-radio">
+                                                                <input type="radio" name="price" checked=""
+                                                                       class="custom-control-input">
+                                                                <div class="custom-control-label">All</div>
+                                                            </label>
+                                                        </div> <!-- card-body.// -->
+                                                    </div>
+                                                </div> <!-- filter-group .// -->
+                                                <div class="filter-group">
+                                                    <div class="filter-content">
+                                                        <div class="card-body">
+                                                            <div class="filter mb-3">
+                                                                <div class="bg-slider">
+                                                                    <p class="slider-title">Slider</p>
+                                                                    <div class="box-filter-input">
+                                                                        <input type="text" disabled
+                                                                               class="filter-input text-right">
+                                                                        <span class="space"> - </span>
+                                                                        <input disabled type="text"
+                                                                               class="filter-input text-left">
+                                                                    </div>
+                                                                </div>
+                                                                <div id="sliderPrice" class="filter-slider-price"
+                                                                     data-min="0" data-max="5000"
+                                                                     data-step="50"></div>
+                                                            </div>
+                                                        </div> <!-- card-body.// -->
+                                                    </div>
+                                                </div> <!-- filter-group .// -->
+                                                <div class="filter-group">
+
+                                                    <div class="filter-content">
+                                                        <h4 class="title">Category</h4>
+                                                        <div class="card-body">
+                                                            <label class="custom-control custom-checkbox">
+                                                                <input type="checkbox" checked=""
+                                                                       class="custom-control-input">
+                                                                <div class="custom-control-label">Digital Art 2D
+                                                                    <b class="badge badge-pill badge-light float-right">1920</b>
+                                                                </div>
+                                                            </label>
+                                                            <label class="custom-control custom-checkbox">
+                                                                <input type="checkbox" checked=""
+                                                                       class="custom-control-input">
+                                                                <div class="custom-control-label">Digital Art 3D
+                                                                    <b class="badge badge-pill badge-light float-right">1865</b>
+                                                                </div>
+                                                            </label>
+                                                            <label class="custom-control custom-checkbox">
+                                                                <input type="checkbox" checked=""
+                                                                       class="custom-control-input">
+                                                                <div class="custom-control-label">Animation
+                                                                    <b class="badge badge-pill badge-light float-right">135</b>
+                                                                </div>
+                                                            </label>
+                                                            <label class="custom-control custom-checkbox">
+                                                                <input type="checkbox" checked=""
+                                                                       class="custom-control-input">
+                                                                <div class="custom-control-label">3D Printing
+                                                                    <b class="badge badge-pill badge-light float-right">89</b>
+                                                                </div>
+                                                            </label>
+                                                            <label class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input">
+                                                                <div class="custom-control-label"> Traditional Paint
+                                                                    <b class="badge badge-pill badge-light float-right">30</b>
+                                                                </div>
+                                                            </label>
+                                                        </div> <!-- card-body.// -->
+                                                    </div>
+                                                </div> <!-- filter-group .// -->
+                                                <div class="filter-group">
+
+                                                    <div class="filter-content">
+                                                        <h4 class="title">Softwares</h4>
+                                                        <div class="card-body">
+                                                            <label class="custom-control custom-checkbox">
+                                                                <input type="checkbox" checked=""
+                                                                       class="custom-control-input">
+                                                                <div class="custom-control-label">Photoshop
+                                                                    <b class="badge badge-pill badge-light float-right">220</b>
+                                                                </div>
+                                                            </label>
+                                                            <label class="custom-control custom-checkbox">
+                                                                <input type="checkbox" checked=""
+                                                                       class="custom-control-input">
+                                                                <div class="custom-control-label">Illustrator
+                                                                    <b class="badge badge-pill badge-light float-right">115</b>
+                                                                </div>
+                                                            </label>
+                                                            <label class="custom-control custom-checkbox">
+                                                                <input type="checkbox" checked=""
+                                                                       class="custom-control-input">
+                                                                <div class="custom-control-label">Zbrush
+                                                                    <b class="badge badge-pill badge-light float-right">535</b>
+                                                                </div>
+                                                            </label>
+                                                            <label class="custom-control custom-checkbox">
+                                                                <input type="checkbox" checked=""
+                                                                       class="custom-control-input">
+                                                                <div class="custom-control-label">Maya
+                                                                    <b class="badge badge-pill badge-light float-right">39</b>
+                                                                </div>
+                                                            </label>
+                                                            <label class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input">
+                                                                <div class="custom-control-label">Krita
+                                                                    <b class="badge badge-pill badge-light float-right">530</b>
+                                                                </div>
+                                                            </label>
+                                                        </div> <!-- card-body.// -->
+                                                    </div>
+                                                </div> <!-- filter-group .// -->
+                                                <div class="filter-group">
+
+                                                    <div class="filter-content">
+                                                        <h4 class="title">Rating</h4>
+                                                        <div class="card-body">
+                                                            <div class="favorite-bg">
+                                                                <i class="icon-star-favorite"></i>
+                                                                <i class="icon-star-favorite"></i>
+                                                                <i class="icon-star-favorite"></i>
+                                                                <i class="icon-star-favorite"></i>
+                                                                <i class="icon-star-favorite"></i>
+                                                                & Up
+                                                                <b class="badge badge-pill badge-light float-right">8500</b>
+                                                            </div>
+                                                            <div class="favorite-bg">
+                                                                <i class="icon-star-favorite"></i>
+                                                                <i class="icon-star-favorite"></i>
+                                                                <i class="icon-star-favorite"></i>
+                                                                <i class="icon-star-favorite"></i>
+                                                                <i class="icon-star-shape-favorite"></i>
+                                                                & Up
+                                                                <b class="badge badge-pill badge-light float-right">3250</b>
+                                                            </div>
+                                                            <div class="favorite-bg">
+                                                                <i class="icon-star-favorite"></i>
+                                                                <i class="icon-star-favorite"></i>
+                                                                <i class="icon-star-favorite"></i>
+                                                                <i class="icon-star-shape-favorite"></i>
+                                                                <i class="icon-star-shape-favorite"></i>
+                                                                & Up
+                                                                <b class="badge badge-pill badge-light float-right">1120</b>
+                                                            </div>
+
+                                                        </div> <!-- card-body.// -->
+                                                    </div>
+                                                </div> <!-- filter-group .// -->
+                                            </div> <!-- card.// -->
+                                            <a href="#" class="btn btn-primary btn-clear-all">CLEAR ALL FILTERS</a>
+                                        </aside> <!-- col.// -->
+                                        <!-- End Filtros-->
+
+                                        <!-- Content Products-->
+                                        <main class="col-md-9">
+
+                                            <!-- Menu Products-->
+                                            <header class="mb-3">
+                                                <div class="form-inline box-results">
+                                                    <h6 class="mr-md-auto results">7,618 results found in 5ms </h6>
+                                                    <select class="form-control">
+                                                        <option>Default</option>
+                                                        <option>Trending</option>
+                                                        <option>Most Popular</option>
+                                                        <option>Cheapest</option>
+                                                    </select>
+                                                    <div class="grid-list">
+                                                        <a href="#" class="btn btn-outline-secondary list active"
+                                                           title=""
+                                                           data-original-title="List view">
+                                                            <i class="icon-menu-options"></i></a>
+                                                        <a href="#" class="btn  btn-outline-secondary grid"
+                                                           title=""
+                                                           data-original-title="Grid view">
+                                                            <i class="icon-menu-grid"></i></a>
+                                                    </div>
+                                                </div>
+                                            </header><!-- sect-heading -->
+
+                                            <div class="input-group mb-3 search-products">
+                                                <a class="btn btn-primary btn-filter" data-toggle="collapse"
+                                                   href="#collapseFilters" role="button" aria-expanded="false"
+                                                   aria-controls="collapseFilters">
+                                                    <i class="icon-filter"></i>
+                                                </a>
+                                                <input type="text" class="form-control" placeholder="Search...">
+                                                <div class="input-group-append">
+                                                    <button class="btn" type="button"><i
+                                                            class="icon-magnifying-glass-browser"></i></button>
+                                                </div>
+                                            </div>
+                                            <!-- End Menu Products -->
+
+                                            <!-- Single Products-->
+                                            <div class="card card-list d-flex align-items-center justify-content-center">
+                                                <div class="row">
+                                                    <div class="col-md-9">
+                                                        <div class="bg-img-wrap">
+                                                            <a href="#">
+                                                                <div class="img-wrap">
+                                                                    <img src="images/produtos/produto1.svg" alt="Img product">
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="info-main">
+                                                            <a href="#" class="h5 title"> Lorem Ipsum is simply
+                                                                dummy </a>
+                                                            <p class="by"><span>By</span> User</p>
+
+
+                                                            <p> Lorem Ipsum is simply dummy text of the printing and
+                                                                typesetting industry. Lorem Ipsum has been the
+                                                                industry's standard dummy text ever since the 1500s,
+                                                                when an unknown printer took a galley of type and
+                                                                scrambled it to make a type specimen book.</p>
+                                                        </div> <!-- info-main.// -->
+                                                    </div> <!-- col.// -->
+                                                    <aside class="col-sm-12 col-md-3">
+                                                        <div class="info-aside">
+                                                            <div class="rating">
+                                                                <a href="#" class="btn btn-rating btn-sm">34 <i
+                                                                        class="icon-star-favorite"></i></a>
+                                                            </div> <!-- rating-wrap.// -->
+                                                            <div class="price-wrap">
+                                                                <span class="price h5"> $399 </span>
+                                                            </div> <!-- info-price-detail // -->
+                                                            <p class="free mb-3">Free shipping</p>
+                                                            <p class="mb-0 btn-product">
+                                                                <a href="#" class="btn btn-outline-danger btn-block"><i
+                                                                        class="icon-lovers-heart"></i>
+                                                                    <span class="text">WISHLIST</span>
+                                                                </a>
+                                                                <a href="#" class="btn btn-primary btn-block"><i
+                                                                        class="icon-online-shopping-cart"></i> ADD TO
+                                                                    CART </a>
+
+                                                            </p>
+                                                        </div> <!-- info-aside.// -->
+                                                    </aside> <!-- col.// -->
+                                                </div> <!-- row.// -->
+                                            </div> <!-- card-product .// -->
+                                            <div class="card card-list d-flex align-items-center justify-content-center">
+                                                <div class="row">
+                                                    <div class="col-md-9">
+                                                        <div class="bg-img-wrap">
+                                                            <a href="#">
+                                                                <div class="img-wrap">
+                                                                    <img src="images/produtos/produto2.svg" alt="Img product">
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="info-main">
+                                                            <a href="#" class="h5 title"> Lorem Ipsum is simply
+                                                                dummy </a>
+                                                            <p class="by"><span>By</span> User</p>
+
+
+                                                            <p> Lorem Ipsum is simply dummy text of the printing and
+                                                                typesetting industry. Lorem Ipsum has been the
+                                                                industry's standard dummy text ever since the 1500s,
+                                                                when an unknown printer took a galley of type and
+                                                                scrambled it to make a type specimen book.</p>
+                                                        </div> <!-- info-main.// -->
+                                                    </div> <!-- col.// -->
+                                                    <aside class="col-sm-12 col-md-3">
+                                                        <div class="info-aside">
+                                                            <div class="rating">
+                                                                <a href="#" class="btn btn-outline-rating btn-sm">34 <i
+                                                                        class="icon-star-shape-favorite"></i></a>
+                                                            </div> <!-- rating-wrap.// -->
+                                                            <div class="price-wrap">
+                                                                <span class="price h5"> $494 </span>
+                                                            </div> <!-- info-price-detail // -->
+                                                            <p class="free mb-3">Free shipping</p>
+                                                            <p class="mb-0 btn-product">
+                                                                <a href="#" class="btn btn-outline-danger btn-block"><i
+                                                                        class="icon-lovers-heart"></i>
+                                                                    <span class="text">WISHLIST</span>
+                                                                </a>
+                                                                <a href="#" class="btn btn-primary btn-block"><i
+                                                                        class="icon-online-shopping-cart"></i> ADD TO
+                                                                    CART </a>
+
+                                                            </p>
+                                                        </div> <!-- info-aside.// -->
+                                                    </aside> <!-- col.// -->
+                                                </div> <!-- row.// -->
+                                            </div> <!-- card-product .// -->
+                                            <div class="card card-list d-flex align-items-center justify-content-center">
+                                                <div class="row">
+                                                    <div class="col-md-9">
+                                                        <div class="bg-img-wrap">
+                                                            <a href="#">
+                                                                <div class="img-wrap">
+                                                                    <img src="images/produtos/produto3.svg" alt="Img product">
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="info-main">
+                                                            <a href="#" class="h5 title"> Lorem Ipsum is simply
+                                                                dummy </a>
+                                                            <p class="by"><span>By</span> User</p>
+
+
+                                                            <p> Lorem Ipsum is simply dummy text of the printing and
+                                                                typesetting industry. Lorem Ipsum has been the
+                                                                industry's standard dummy text ever since the 1500s,
+                                                                when an unknown printer took a galley of type and
+                                                                scrambled it to make a type specimen book.</p>
+                                                        </div> <!-- info-main.// -->
+                                                    </div> <!-- col.// -->
+                                                    <aside class="col-sm-12 col-md-3">
+                                                        <div class="info-aside">
+                                                            <div class="rating">
+                                                                <a href="#" class="btn btn-rating btn-sm">34 <i
+                                                                        class="icon-star-favorite"></i></a>
+                                                            </div> <!-- rating-wrap.// -->
+                                                            <div class="price-wrap">
+                                                                <span class="price h5"> $259 </span>
+                                                            </div> <!-- info-price-detail // -->
+                                                            <p class="free mb-3">Free shipping</p>
+                                                            <p class="mb-0 btn-product">
+                                                                <a href="#" class="btn btn-outline-danger btn-block"><i
+                                                                        class="icon-lovers-heart"></i>
+                                                                    <span class="text">WISHLIST</span>
+                                                                </a>
+                                                                <a href="#" class="btn btn-primary btn-block"><i
+                                                                        class="icon-online-shopping-cart"></i> ADD TO
+                                                                    CART </a>
+
+                                                            </p>
+                                                        </div> <!-- info-aside.// -->
+                                                    </aside> <!-- col.// -->
+                                                </div> <!-- row.// -->
+                                            </div> <!-- card-product .// -->
+                                            <div class="card card-list d-flex align-items-center justify-content-center">
+                                                <div class="row">
+                                                    <div class="col-md-9">
+                                                        <div class="bg-img-wrap">
+                                                            <a href="#">
+                                                                <div class="img-wrap">
+                                                                    <img src="images/produtos/produto4.svg" alt="Img product">
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="info-main">
+                                                            <a href="#" class="h5 title"> Lorem Ipsum is simply
+                                                                dummy </a>
+                                                            <p class="by"><span>By</span> User</p>
+
+
+                                                            <p> Lorem Ipsum is simply dummy text of the printing and
+                                                                typesetting industry. Lorem Ipsum has been the
+                                                                industry's standard dummy text ever since the 1500s,
+                                                                when an unknown printer took a galley of type and
+                                                                scrambled it to make a type specimen book.</p>
+                                                        </div> <!-- info-main.// -->
+                                                    </div> <!-- col.// -->
+                                                    <aside class="col-sm-12 col-md-3">
+                                                        <div class="info-aside">
+                                                            <div class="rating">
+                                                                <a href="#" class="btn btn-outline-rating btn-sm">34 <i
+                                                                        class="icon-star-shape-favorite"></i></a>
+                                                            </div> <!-- rating-wrap.// -->
+                                                            <div class="price-wrap">
+                                                                <span class="price h5"> $152 </span>
+                                                            </div> <!-- info-price-detail // -->
+                                                            <p class="free mb-3">Free shipping</p>
+                                                            <p class="mb-0 btn-product">
+                                                                <a href="#" class="btn btn-outline-danger btn-block"><i
+                                                                        class="icon-lovers-heart"></i>
+                                                                    <span class="text">WISHLIST</span>
+                                                                </a>
+                                                                <a href="#" class="btn btn-primary btn-block"><i
+                                                                        class="icon-online-shopping-cart"></i> ADD TO
+                                                                    CART </a>
+
+                                                            </p>
+                                                        </div> <!-- info-aside.// -->
+                                                    </aside> <!-- col.// -->
+                                                </div> <!-- row.// -->
+                                            </div> <!-- card-product .// -->
+                                            <!-- End Single Products-->
+
+
+                                            <!-- Pagination-->
+                                            <nav class="bg-pagination" aria-label="Page navigation">
+                                                <ul class="pagination">
+                                                    <div class="page-item disabled page-first"><a class="page-link"
+                                                                                                  href="#"><i
+                                                            class="icon-left-chevron"></i></a></div>
+                                                    <li class="page-item active one"><a class="page-link" href="#">1</a>
+                                                    </li>
+                                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                                    <li class="page-item finish"><a class="page-link" href="#">5</a>
+                                                    </li>
+                                                    <div class="page-item page-last"><a class="page-link" href="#"><i
+                                                            class="icon-right-chevron"></i></a></div>
+                                                </ul>
+                                            </nav>
+                                            <!-- End Pagination-->
+
+                                        </main> <!-- col.// -->
+                                        <!-- end Content Products-->
+
+                                    </div>
+
+                                </div> <!-- container .//  -->
+                            </section>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+
+
+        </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+
+
+<!-- Bootstrap e Jquery-->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/nouislider/nouislider.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- End Bootstrap e Jquery-->
+
+
+<!-- Javascript custom-->
+<script src="js/custom.js"></script>
+<!-- End Javascript custom-->
+
+</body>
+</html>

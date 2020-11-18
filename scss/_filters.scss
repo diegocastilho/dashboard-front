@@ -1,0 +1,58 @@
+/*---------------------------------
+  filters
+----------------------*/
+
+.btn-filter{
+  display: none;
+  width: 40px;
+  position: relative;
+  top: -8px;
+}
+
+.filter-box{
+  border: 0;
+  padding: 20px;
+  .card-body{
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .filter-group{
+    border-bottom: 1px solid $light-300;
+    &:last-child{
+      border-bottom: 0;
+    }
+    .filter-content{
+      padding: 10px 0;
+      .custom-control-label {
+        line-height: 24px;
+      }
+      .favorite-bg{
+        margin: 10px 0;
+        i{
+          color: $secondary-yellow;
+        }
+
+      }
+    }
+  }
+  .badge-light {
+    color: $primary-color;
+    background-color: $light-300;
+    margin-top: 3px;
+  }
+}
+
+.custom-control-input {
+  &:checked~.custom-control-label {
+    &::before {
+      color: $primary-white;
+      border-color: $primary-color;
+      background-color: $primary-color;
+    }
+  }
+}
+
+
+/*---------------------------------
+  end filters
+----------------------*/

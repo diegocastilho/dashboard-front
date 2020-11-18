@@ -1,0 +1,136 @@
+/*---------------------------------
+  icons
+----------------------*/
+@font-face {
+  font-family: 'icons';
+  src:  url('../fonts/icons.eot?pexirh');
+  src:  url('../fonts/icons.eot?pexirh#iefix') format('embedded-opentype'),
+  url('../fonts/icons.ttf?pexirh') format('truetype'),
+  url('../fonts/icons.woff?pexirh') format('woff'),
+  url('../fonts/icons.svg?pexirh#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  //speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-filter:before {
+  content: "\e921";
+}
+.icon-layout-1:before {
+  content: "\e91d";
+}
+.icon-layout2:before {
+  content: "\e91e";
+}
+.icon-layout-box:before {
+  content: "\e91f";
+}
+.icon-layout-box2:before {
+  content: "\e920";
+}
+.icon-circle:before {
+  content: "\e91c";
+}
+.icon-alarm-bell:before {
+  content: "\e900";
+}
+.icon-box:before {
+  content: "\e901";
+}
+.icon-chat-speech-balloon:before {
+  content: "\e902";
+}
+.icon-checking-mark-circle:before {
+  content: "\e903";
+}
+.icon-checkmark:before {
+  content: "\e904";
+}
+.icon-checkmark-1:before {
+  content: "\e905";
+}
+.icon-closed-envelope-email:before {
+  content: "\e906";
+}
+.icon-copy-file:before {
+  content: "\e907";
+}
+.icon-credit-card:before {
+  content: "\e908";
+}
+.icon-dialogue-balloon:before {
+  content: "\e909";
+}
+.icon-down-chevron:before {
+  content: "\e90a";
+}
+.icon-down-chevron-1:before {
+  content: "\e90b";
+}
+.icon-file:before {
+  content: "\e90c";
+}
+.icon-layout:before {
+  content: "\e90d";
+}
+.icon-left-chevron:before {
+  content: "\e90e";
+}
+.icon-lovers-heart:before {
+  content: "\e90f";
+}
+.icon-magnifying-glass-browser:before {
+  content: "\e910";
+}
+.icon-menu-grid:before {
+  content: "\e911";
+}
+.icon-menu-options:before {
+  content: "\e912";
+}
+.icon-office-monthly-calendar:before {
+  content: "\e913";
+}
+.icon-online-shopping-cart:before {
+  content: "\e914";
+}
+.icon-options-gear:before {
+  content: "\e915";
+}
+.icon-right-chevron:before {
+  content: "\e916";
+}
+.icon-star-favorite:before {
+  content: "\e917";
+}
+.icon-star-shape-favorite:before {
+  content: "\e918";
+}
+.icon-text-line-form:before {
+  content: "\e919";
+}
+.icon-water-drop:before {
+  content: "\e91a";
+}
+.icon-web-page-home:before {
+  content: "\e91b";
+}
+
+/*---------------------------------
+  end icons
+----------------------*/

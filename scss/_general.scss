@@ -1,0 +1,174 @@
+/*---------------------------------
+  general
+----------------------*/
+
+body {
+  position: relative;
+  overflow-x:hidden;
+  background: $light-200;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+h1 {
+  font-size: 4.2222222rem;
+  line-height: 5.3333333rem;
+  margin-top: 1.3333333rem;
+  margin-bottom: 2.6666666rem;
+}
+.h1 {
+  font-size: 4.2222222rem;
+  line-height: 5.3333333rem;
+  margin-top: 1.3333333rem;
+  margin-bottom: 2.6666666rem;
+}
+h2 {
+  font-size: 2.6111111rem;
+  line-height: 2.6666667rem;
+  margin-top: 1.3333333rem;
+  margin-bottom: 1.3333333rem;
+}
+.h2 {
+  font-size: 2.6111111rem;
+  line-height: 2.6666667rem;
+  margin-top: 1.3333333rem;
+  margin-bottom: 1.3333333rem;
+}
+h3 {
+  font-size: 1.6111111rem;
+  line-height: 2.6666667rem;
+  margin-top: 1.3333333rem;
+  margin-bottom: 0;
+}
+.h3 {
+  font-size: 1.6111111rem;
+  line-height: 2.6666667rem;
+  margin-top: 1.3333333rem;
+  margin-bottom: 0;
+}
+h4 {
+  font-size: 1rem;
+  line-height: 1.3333333rem;
+  margin-top: 1.3333333rem;
+  margin-bottom: 0;
+}
+.h4 {
+  font-size: 1rem;
+  line-height: 1.3333333rem;
+  margin-top: 1.3333333rem;
+  margin-bottom: 0;
+}
+h5 {
+  font-size: 1rem;
+  line-height: 1.3333333rem;
+  margin-top: 1.3333333rem;
+  margin-bottom: 0;
+}
+.h5 {
+  font-size: 1rem;
+  line-height: 1.3333333rem;
+  margin-top: 1.3333333rem;
+  margin-bottom: 0;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1.3333333rem;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 1.3333333rem;
+  ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  ol {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+ol {
+  margin-top: 0;
+  margin-bottom: 1.3333333rem;
+  ol {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+pre {
+  margin-top: 0;
+  margin-bottom: 1.3333333rem;
+}
+table {
+  margin-top: 0;
+  margin-bottom: 1.3333333rem;
+}
+blockquote {
+  margin-top: 0;
+  margin-bottom: 1.3333333rem;
+}
+hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+.hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+b {
+  line-height: 0;
+}
+i {
+  line-height: 0;
+}
+strong {
+  line-height: 0;
+}
+em {
+  line-height: 0;
+}
+small {
+  line-height: 0;
+}
+code {
+  line-height: 0;
+}
+sub {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  bottom: -0.25em;
+}
+sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
+}
+
+a{
+  color: $primary-color;
+}
+a:hover{
+  color: $dark-600;
+  text-decoration:none;
+}
+
+.list-unstyled {
+  list-style: none;
+}
+
+.border-radius-50{
+  border-radius: 50%;
+}
+
+/*---------------------------------
+  end general
+----------------------*/

@@ -1,0 +1,98 @@
+/*---------------------------------
+  pagination
+----------------------*/
+.bg-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .pagination {
+    .page-first, .page-last {
+      margin: 10px;
+
+      a {
+        border-radius: 50% !important;
+        width: 40px;
+        height: 40px;
+        border: 0;
+        line-height: 26px;
+        color: #000;
+        transition: all 0.1s ease-in;
+      }
+    }
+
+    li {
+      margin-top: 10px;
+      background-color: $primary-white;
+      height: 40px;
+
+      a {
+        border: 0;
+        height: 40px;
+        line-height: 23px;
+        padding: 9px 17px;
+        color: $primary-color;
+        transition: all 0.1s ease-in;
+      }
+
+    }
+
+    .one {
+      -webkit-border-bottom-left-radius: 50%;
+      -webkit-border-top-left-radius: 50%;
+      border-bottom-left-radius: 50%;
+      border-top-left-radius: 50%;
+
+      a {
+        -webkit-border-bottom-left-radius: 50%;
+        -webkit-border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+      }
+    }
+
+    .finish {
+      -webkit-border-bottom-right-radius: 50%;
+      -webkit-border-top-right-radius: 50%;
+      border-bottom-right-radius: 50%;
+      border-top-right-radius: 50%;
+
+      a {
+        -webkit-border-bottom-right-radius: 50%;
+        -webkit-border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-top-right-radius: 50%;
+      }
+    }
+
+    .page-item.disabled {
+      .page-link {
+        color: $light-300;
+        pointer-events: none;
+        cursor: auto;
+        background-color: $light-100;
+        border: 0;
+      }
+    }
+
+    .page-link:hover {
+      z-index: 2;
+      color: $primary-color;
+      text-decoration: none;
+      border-radius: 50%;
+    }
+
+    .page-item.active {
+      .page-link {
+        z-index: 3;
+        color: $primary-white;
+        background-color: $primary-color;
+        border-color: $primary-color;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+/*---------------------------------
+  fim pagination
+----------------------*/

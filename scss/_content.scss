@@ -1,0 +1,125 @@
+/*---------------------------------
+  content
+----------------------*/
+.card {
+  border: 0;
+}
+.section-content{
+  font-size: 14px;
+  .card-list {
+    margin-bottom: 20px;
+    .bg-img-wrap {
+      .img-wrap {
+        height: 240px;
+        width: 100%;
+        border-radius: 0.37rem 0 0 0.37rem;
+        overflow: hidden;
+        padding: 12px;
+
+        img {
+          max-width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+          border-radius: 4px;
+        }
+      }
+    }
+    .info-main {
+      padding: 1.5rem 1rem;
+      .by{
+        font-size: 12px;
+        color: $primary-dark;
+        span{
+          color: $light-400;
+        }
+      }
+
+    }
+    .info-aside {
+      padding: 1.5rem 1rem;
+      border-left: 1px solid $light-300;
+      height: 100%;
+      text-align: center;
+      .free{
+        font-size: 12px;
+        color: $light-500;
+      }
+      .btn-product{
+        a{
+          font-size: 12px;
+          padding: 10px;
+        }
+      }
+      .rating{
+        a{
+          position: absolute;
+          right: 30px;
+        }
+      }
+    }
+  }
+  .card-sm {
+    .img-wrap {
+      height: 160px;
+    }
+  }
+  .card-lg {
+    .img-wrap {
+      height: 280px;
+    }
+  }
+  h6.title{
+    margin: 6px 0 22px 0;
+  }
+}
+.box-results{
+  .results{
+    line-height: 14px;
+    margin: 0;
+  }
+  select{
+    height: 32px;
+    font-size: 14px;
+    border-color: $light-300;
+    margin-right: 8px;
+  }
+}
+.grid-list{
+  height: 32px;
+  .grid, .list{
+    line-height: 15px;
+    margin: 0 3px;
+    border-radius: 4px;
+    padding: 6px 10px;
+  }
+}
+.search-products{
+  input{
+    height: 48px;
+    font-size: 14px;
+    border: 0;
+    border-left: 1px solid $primary-white;
+    border-radius: 4px!important;
+  }
+  button{
+    background: $primary-white;
+    border: 0;
+    outline: none;
+    &:hover{
+      background: $primary-white;
+    }
+    &:active{
+      background: $primary-white;
+    }
+    i{
+      padding: 10px;
+    }
+  }
+}
+
+
+
+/*---------------------------------
+  end content
+----------------------*/

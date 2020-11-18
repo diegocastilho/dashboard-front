@@ -1,0 +1,76 @@
+/*---------------------------------
+  slider
+----------------------*/
+
+.noUi-target {
+  cursor: pointer;
+
+  :focus {
+    outline: none;
+  }
+}
+
+.noUi-horizontal {
+  height: 9px;
+  clear: both;
+}
+
+.noUi-connect {
+  background: $primary-color;
+}
+
+.noUi-base {
+  background: $light-300;
+}
+
+.noUi-horizontal .noUi-handle {
+  top: -6px;
+  right: -9px;
+  width: 18px;
+  height: 18px;
+  background: $primary-color;
+  border: 1px solid $primary-color-hover;
+  border-radius: 50%;
+  box-shadow: unset;
+  cursor: pointer;
+  transition: transform .1s;
+
+  &:before, &:after {
+    content: none
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.filter {
+  .box-filter-input{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .space{
+    width: 2%;
+    float: left;
+    text-align: center;
+    color: $primary-dark;
+  }
+  .filter-input {
+    width: 40px;
+    float: left;
+    border: 0;
+    background: transparent;
+  }
+  .slider-title{
+    width: 44px;
+    float: left;
+    margin-bottom: 15px;
+  }
+  .filter-slider-price {
+    margin: 0 10px;
+    border-color: $light-300;
+  }
+}
+
+/*---------------------------------
+  fim slider
+----------------------*/
