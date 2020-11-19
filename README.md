@@ -36,7 +36,7 @@ siga os seguintes passos:</p>
 <ul>
 <li>Instale o Ruby : <a target="_blank" href="http://rubyinstaller.org/">http://rubyinstaller.org/</a></li>
 <li>Depois do Ruby instalado abra o terminal e execute: <code>gem install sass</code></li>
-<li>Abra o terminal a partir da raiz do projeto "gran-cursos-front" e execute o comando: <code>sass --watch scss/style.scss:css/style.css</code>
+<li>Abra o terminal a partir da raiz do projeto "dashboard-front" e execute o comando: <code>sass --watch scss/style.scss:css/style.css</code>
 esse comando vai fazer com que cada alteração que fizer em qualquer arquivo .scss seja automaticamente inserida do style.css</li>
 </ul>
 
