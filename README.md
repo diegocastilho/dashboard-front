@@ -52,3 +52,9 @@ esse comando vai fazer com que cada alteração que fizer em qualquer arquivo .s
 
 <p>Imagens utilizadas nas postagens:</p>
 <a href="http://www.freepik.com">Designed by catalyststuff / Freepik</a>
+
+## Licença
+
+<p> This work is free. You can redistribute it and/or modify it under the
+   terms of the Do What The Fuck You Want To Public License, Version 2,
+   as published by Sam Hocevar. See <a href="http://www.wtfpl.net/">http://www.wtfpl.net/</a>  for more details.</p>
